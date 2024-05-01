@@ -1,31 +1,47 @@
-<script setup>
-import HelloWorld from "./components/HelloWorld.vue";
-</script>
-
-<template>
-  <div>
-    <h1>Lorem.</h1>
-    <a href="https://vitejs.dev" target="_blank">
-      <img src="/vite.svg" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://vuejs.org/" target="_blank">
-      <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
-    </a>
-  </div>
-  <HelloWorld msg="Vite + Vue" />
-</template>
-
 <style scoped>
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.vue:hover {
-  filter: drop-shadow(0 0 2em #42b883aa);
+#app {
+  font-family: var(--font-family), var(--second-family), sans-serif;
 }
 </style>
+
+<template>
+  <header class="header">
+    <header-component :openBurgerMenu="openBurgerMenu"></header-component>
+    <burger-modal v-if="open" :closeBurgerMenu="closeBurgerMenu"></burger-modal>
+  </header>
+  <main class="main">
+    <router-view></router-view>
+  </main>
+  <footer class="footer">
+    <footer-component></footer-component>
+  </footer>
+</template>
+
+<script>
+import headerComponent from "./components/header.vue";
+import footerComponent from "./components/footer.vue";
+import burgerModal from "./components/modal/burger-modal.vue";
+
+export default {
+  data() {
+    return {
+      open: false,
+    };
+  },
+  components: {
+    headerComponent,
+    footerComponent,
+    burgerModal,
+  },
+  methods: {
+    openBurgerMenu() {
+      this.open = true;
+    },
+    closeBurgerMenu() {
+      this.open = false;
+    },
+  },
+};
+// typeof openBurgerMenu;
+console.log(typeof counter);
+</script>

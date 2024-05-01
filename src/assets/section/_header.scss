@@ -1,0 +1,162 @@
+.header {
+  position: relative;
+
+  &__top {
+    background-color: var(--black);
+    padding: 14px 0;
+  }
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .time {
+    position: relative;
+    padding-left: 25px;
+  }
+
+  .time::after {
+    content: url(../svg/time.svg);
+    position: absolute;
+    left: 0;
+    top: 3px;
+    width: 13px;
+    height: 13px;
+  }
+
+  .link-geo {
+    position: relative;
+    padding: 2px;
+    padding-left: 25px;
+    transition: color 0.3s ease-in-out, outline 0.3s ease-in-out,
+      opacity 0.3s ease-in-out;
+
+    &:hover {
+      color: var(--yellow);
+    }
+
+    &:focus {
+      outline: 1px solid var(--yellow);
+      color: var(--yellow);
+    }
+
+    &:active {
+      outline: none;
+      color: var(--green);
+      opacity: 0.5;
+    }
+  }
+
+  .link-geo::after {
+    content: url(../svg/geo.svg);
+    position: absolute;
+    left: 0;
+    top: 2px;
+    width: 13px;
+    height: 13px;
+  }
+
+  &__bot {
+    backdrop-filter: blur(21px);
+    background: rgba(27, 27, 27, 0.91);
+    padding: 50px 0;
+  }
+
+  &__logo {
+    padding: 2px;
+    transition: outline 0.3s ease-in-out;
+
+    &:hover {
+      outline: 1px solid var(--yellow);
+    }
+
+    &:focus {
+      outline: 1px solid var(--yellow);
+    }
+
+    &:active {
+      outline: 1px solid var(--green);
+    }
+  }
+
+  &__block {
+    border-radius: 42px;
+    padding: 8px 41px 8px 10px;
+    background: var(--white);
+  }
+
+  .link-tel {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    transition: color 0.3s ease-in-out, outline 0.3s ease-in-out;
+
+    &:hover {
+      color: var(--yellow);
+
+      .icon-tel {
+        stroke: var(--white);
+      }
+    }
+
+    &:focus {
+      outline: 1px solid var(--yellow);
+      border-radius: 42px;
+    }
+
+    &:active {
+      outline: none;
+      color: var(--green);
+
+      .icon-tel {
+        fill: var(--green);
+        stroke: var(--white);
+      }
+    }
+  }
+
+  .icon-tel {
+    fill: var(--yellow);
+    stroke: var(--black);
+  }
+}
+
+@media (max-width: 1200px) {
+  .header {
+    &__bot {
+      padding: 20px 0;
+    }
+
+    &__logo {
+      order: 2;
+      margin-left: -170px;
+    }
+
+    &__block {
+      order: 1;
+    }
+
+    .burger {
+      order: 3;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    .link-geo {
+      display: none;
+    }
+
+    &__block {
+      display: none;
+    }
+
+    &__logo {
+      order: 2;
+      margin-left: 0px;
+    }
+  }
+}

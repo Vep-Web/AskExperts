@@ -1,0 +1,164 @@
+.t-50 {
+  font-family: var(--second-family);
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 130%;
+  color: var(--black);
+  margin: 0;
+}
+
+.t-45 {
+  font-family: var(--second-family);
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 130%;
+  color: var(--black);
+  margin: 0;
+}
+
+.t-40 {
+  font-family: var(--second-family);
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 130%;
+  color: var(--black);
+  margin: 0;
+}
+
+.t-35 {
+  font-family: var(--second-family);
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 130%;
+  color: var(--black);
+  margin: 0;
+}
+
+.t-32 {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 140%;
+  text-align: center;
+  color: var(--white);
+  margin: 0;
+}
+
+.t-30 {
+  font-family: var(--second-family);
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 130%;
+  color: var(--black);
+  margin: 0;
+}
+
+.t-25 {
+  font-family: var(--second-family);
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 130%;
+  color: var(--black);
+  margin: 0;
+}
+
+.t-20 {
+  margin: 0;
+  font-family: var(--second-family);
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 116%;
+  color: var(--black);
+}
+
+.t-18 {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 160%;
+  color: var(--black);
+  margin: 0;
+}
+
+.t-17 {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 160%;
+  color: var(--white);
+  margin: 0;
+}
+
+.t-16 {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 148%;
+  color: var(--grey);
+  margin: 0;
+}
+
+.t-16b {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 214%;
+  color: var(--grey);
+  margin: 0;
+}
+
+.t-14 {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 160%;
+  color: var(--white);
+  margin: 0;
+}
+
+.descr {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 148%;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #181818;
+  border-radius: 20px;
+  padding: 0 15px;
+  display: inline-block;
+}
+
+.descr-yellow {
+  background-color: var(--yellow);
+}
+
+.descr-green {
+  background-color: var(--green);
+}
+
+.t-centr {
+  text-align: center;
+}
+
+@media (max-width: 1400px) {
+}
+
+@media (max-width: 1200px) {
+}
+
+@media (max-width: 992px) {
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 576px) {
+  .t-50 {
+    font-size: 40px;
+  }
+
+  .t-45 {
+    font-size: 35px;
+  }
+}

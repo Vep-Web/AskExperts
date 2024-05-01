@@ -1,0 +1,80 @@
+@import "./fonts.scss";
+
+:root {
+  --white: #fff;
+  --black: #181818;
+  --grey: #595566;
+  --grey2: #d8d8d8;
+  --grey3: #f6f6f6;
+  --grey4: #ebebeb;
+  --green: #5ab612;
+  --yellow: #ffcc4a;
+  --container: 1200px;
+  --indentation: 10px;
+
+  --font-family: "Lato", sans-serif;
+  --second-family: "Cabin", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.page {
+  max-width: 1920px;
+  min-width: 320px;
+  height: 100%;
+  font-family: var(--font-family), var(--second-family), sans-serif;
+  background: var(--white);
+  color: var(--black);
+  margin: 0 auto;
+}
+
+.list-reset {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.btn-reset {
+  border: none;
+  padding: 0;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.input-reset {
+  -webkit-appearance: none;
+  appearance: none;
+  border: none;
+  border-radius: 0;
+  background-color: #fff;
+
+  &::-webkit-search-decoration,
+  &::-webkit-search-cancel-button,
+  &::-webkit-search-results-button,
+  &::-webkit-search-results-decoration {
+    display: none;
+  }
+}
+
+.fieldset-reset {
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+
+.link-reset {
+  text-decoration: none;
+  outline: none;
+}
+
+.container {
+  max-width: calc(var(--container) - var(--indentation) * 2);
+  margin: 0 auto;
+  padding: 0 var(--indentation);
+}
+
+.d-flex {
+  display: flex;
+}

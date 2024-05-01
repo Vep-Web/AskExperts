@@ -1,0 +1,39 @@
+.burger {
+  display: none;
+}
+
+@media (max-width: 1200px) {
+  .burger {
+    display: block;
+    width: 25px;
+    height: 20px;
+    position: relative;
+    color: inherit;
+
+    &__line {
+      position: absolute;
+      left: 0;
+      width: 25px;
+      height: 2px;
+      background-color: var(--white);
+      transition: transform 0.5s ease-in-out;
+    }
+
+    &__line:nth-child(1) {
+      transform: translateY(8px);
+    }
+
+    &__line:nth-child(3) {
+      transform: translateY(-8px);
+    }
+  }
+}
+
+@media (max-width: 992px) {
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 576px) {
+}

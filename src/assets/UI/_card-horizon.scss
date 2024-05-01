@@ -1,0 +1,71 @@
+.card-horizon {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 40px;
+
+  &__item {
+    border-top: 1px solid var(--grey2);
+    padding-top: 28px;
+    // padding-right: 55px;
+  }
+
+  &__article {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+
+  &__decor {
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--second-family);
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 116%;
+  }
+
+  .decor-yellow {
+    background: var(--yellow);
+    color: var(--black);
+  }
+
+  .decor-green {
+    background: var(--green);
+    color: var(--white);
+  }
+
+  .decor-black {
+    background: var(--black);
+    color: var(--white);
+  }
+
+  &__header {
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 1400px) {
+}
+
+@media (max-width: 1200px) {
+}
+
+@media (max-width: 992px) {
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 576px) {
+  .card-horizon {
+    gap: 15px;
+
+    &__item {
+      padding: 10px;
+    }
+  }
+}

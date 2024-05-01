@@ -1,0 +1,140 @@
+.teams {
+  margin-top: 125px;
+  margin-bottom: 175px;
+
+  &__container {
+    display: flex;
+    column-gap: 45px;
+  }
+
+  &__descr {
+    margin-bottom: 20px;
+  }
+
+  &__title {
+    margin-bottom: 18px;
+  }
+
+  &__info {
+    display: inline-block;
+    margin-bottom: 11px;
+  }
+
+  &__block {
+    border-top: 1px solid var(--grey2);
+    border-bottom: 1px solid var(--grey2);
+    padding: 17px 0;
+    display: flex;
+    gap: 40px;
+  }
+
+  &__grade {
+    position: relative;
+    background-color: var(--grey3);
+    border-radius: 15px;
+    padding: 16px 22px;
+  }
+
+  &__grade:first-child::after {
+    content: "";
+    width: 1px;
+    background-color: var(--grey2);
+    display: inline-block;
+    position: absolute;
+    height: 100%;
+    right: -20px;
+    top: 0;
+  }
+
+  &__header {
+    position: relative;
+    text-align: center;
+    padding-left: 15px;
+  }
+
+  .star::before {
+    content: url(./svg/Star.svg);
+    position: absolute;
+    top: 1px;
+    left: 0;
+  }
+
+  .smile:before {
+    content: url(./svg/smile.svg);
+    position: absolute;
+    top: 1px;
+    left: 0;
+  }
+
+  &__text {
+    font-weight: 700;
+    color: var(--black);
+  }
+}
+
+@media (max-width: 1400px) {
+}
+
+@media (max-width: 1200px) {
+  .teams {
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+    &__container {
+      position: relative;
+    }
+    &__right {
+      order: 1;
+    }
+
+    &__left {
+      order: 2;
+      max-width: 400px;
+      width: 100%;
+      position: absolute;
+      right: 8%;
+      top: 0;
+      backdrop-filter: blur(6px);
+      background: rgb(255 255 255 / 64%);
+      border-radius: 10px;
+      padding: 10px 5px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .teams {
+    &__right {
+      display: none;
+    }
+
+    &__left {
+      position: relative;
+      right: 0;
+      max-width: 800px;
+      padding: 0;
+    }
+
+    &__block {
+      justify-content: center;
+      gap: 80px;
+    }
+
+    &__grade:first-child::after {
+      right: -40px;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .teams {
+    &__block {
+      justify-content: space-around;
+      gap: 10px;
+    }
+
+    &__grade:first-child::after {
+      display: none;
+    }
+  }
+}

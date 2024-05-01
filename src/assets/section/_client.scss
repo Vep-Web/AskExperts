@@ -1,0 +1,41 @@
+.client {
+  &__container {
+    max-width: 1800px;
+  }
+
+  &__list {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    align-items: center;
+    justify-items: center;
+    column-gap: 30px;
+    row-gap: 15px;
+  }
+
+  &__icon {
+    fill: var(--grey);
+  }
+}
+
+@media (max-width: 1400px) {
+  .client {
+    &__list {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+}
+
+@media (max-width: 992px) {
+}
+
+@media (max-width: 768px) {
+  .client {
+    display: none;
+  }
+}
+
+@media (max-width: 576px) {
+}
