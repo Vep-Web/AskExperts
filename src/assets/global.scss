@@ -9,7 +9,8 @@
   --grey4: #ebebeb;
   --green: #5ab612;
   --yellow: #ffcc4a;
-  --container: 1200px;
+
+  --container: 1220px;
   --indentation: 10px;
 
   --font-family: "Lato", sans-serif;
@@ -70,7 +71,7 @@
 }
 
 .container {
-  max-width: calc(var(--container) - var(--indentation) * 2);
+  max-width: var(--container);
   margin: 0 auto;
   padding: 0 var(--indentation);
 }

@@ -2,7 +2,9 @@
 
 <template>
   <div class="control__container container">
-    <span class="control__descr descr descr-green">Services</span>
+    <header-block color="green" class="control__descr">
+      <slot>Services</slot>
+    </header-block>
     <h2 class="control__title t-45 t-centr">
       Get Control Over Your Business I take your finance to next level
     </h2>
@@ -508,10 +510,12 @@
 
 <script>
 import cardUi from "../../../UI/card.vue";
+import headerBlock from "../../../UI/header-block.vue";
 
 export default {
   components: {
     cardUi,
+    headerBlock,
   },
 };
 </script>

@@ -9,7 +9,9 @@
         experience on growth and business scaling.
       </span>
       <div class="hero__block">
-        <router-link to="servises/" class="hero__link link-reset"
+        <router-link
+          to="servises/"
+          class="hero__link link-reset link link-black"
           >Our Services</router-link
         >
         <button class="hero__btn btn-reset">

@@ -3,7 +3,7 @@
 
   &__top {
     background-color: var(--black);
-    padding: 14px 0;
+    padding: 16px 0;
   }
 
   &__container {
@@ -61,65 +61,7 @@
   &__bot {
     backdrop-filter: blur(21px);
     background: rgba(27, 27, 27, 0.91);
-    padding: 50px 0;
-  }
-
-  &__logo {
-    padding: 2px;
-    transition: outline 0.3s ease-in-out;
-
-    &:hover {
-      outline: 1px solid var(--yellow);
-    }
-
-    &:focus {
-      outline: 1px solid var(--yellow);
-    }
-
-    &:active {
-      outline: 1px solid var(--green);
-    }
-  }
-
-  &__block {
-    border-radius: 42px;
-    padding: 8px 41px 8px 10px;
-    background: var(--white);
-  }
-
-  .link-tel {
-    display: flex;
-    align-items: center;
-    gap: 7px;
-    transition: color 0.3s ease-in-out, outline 0.3s ease-in-out;
-
-    &:hover {
-      color: var(--yellow);
-
-      .icon-tel {
-        stroke: var(--white);
-      }
-    }
-
-    &:focus {
-      outline: 1px solid var(--yellow);
-      border-radius: 42px;
-    }
-
-    &:active {
-      outline: none;
-      color: var(--green);
-
-      .icon-tel {
-        fill: var(--green);
-        stroke: var(--white);
-      }
-    }
-  }
-
-  .icon-tel {
-    fill: var(--yellow);
-    stroke: var(--black);
+    padding: 40px 0;
   }
 }
 

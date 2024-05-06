@@ -8,53 +8,46 @@
   height: auto;
   padding: 195px 0;
 
+  &__container {
+    max-width: 1545px;
+  }
+
   &__content {
     backdrop-filter: blur(11px);
     background: rgba(255, 255, 255, 0.85);
     max-width: 551px;
     width: 100%;
-    padding: 55px 58px;
+    padding: 50px 60px;
     border-radius: 29px;
   }
 
   &__title {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
 
   &__block {
     display: flex;
     align-items: center;
-    column-gap: 13px;
-    margin-top: 20px;
+    column-gap: 10px;
+    margin-top: 40px;
   }
 
-  &__link {
-    border-radius: 42px;
-    border: 2px solid var(--black);
-    padding: 19px 37px;
-    background-color: var(--black);
-    color: var(--white);
-    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out,
-      border 0.3s ease-in-out;
+  // &__link {
+  //   border-radius: 42px;
+  //   border: 2px solid var(--black);
+  //   padding: 19px 37px;
+  //   background-color: var(--black);
+  //   color: var(--white);
+  //   transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out,
+  //     border 0.3s ease-in-out;
 
-    &:hover {
-      background-color: var(--white);
-      color: var(--black);
-      border: 2px solid var(--black);
-    }
+  //   &:hover {
+  //     background-color: var(--white);
+  //     color: var(--black);
+  //     border: 2px solid var(--black);
+  //   }
 
-    &:focus {
-      border: 2px solid var(--yellow);
-      color: var(--yellow);
-    }
-
-    &:active {
-      background-color: var(--green);
-      color: var(--white);
-      border: 2px solid var(--green);
-      opacity: 0.7;
-    }
-  }
+  // }
 
   &__icon {
     stroke: var(--black);
@@ -130,7 +123,7 @@
 
 @media (max-width: 576px) {
   .hero {
-    background-image: none;
+    // background-image: none;
 
     &__content {
       padding: 15px;

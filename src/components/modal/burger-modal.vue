@@ -11,8 +11,8 @@
   justify-content: space-between;
   background-color: var(--black);
   padding: 30px;
-
-  &__list {
+  z-index: 1;
+  scr &__list {
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column;

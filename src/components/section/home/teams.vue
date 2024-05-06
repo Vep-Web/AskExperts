@@ -3,7 +3,9 @@
 <template>
   <div class="teams__container container">
     <div class="teams__left">
-      <span class="teams__descr descr descr-yellow">About Us</span>
+      <header-block class="teams__descr">
+        <slot>About Us</slot>
+      </header-block>
       <h2 class="teams__title t-45">About our Consuting Agency Team</h2>
       <span class="teams__info t-18"
         >We create experiences and build products that make business grow</span
@@ -32,4 +34,12 @@
   </div>
 </template>
 
-<script setup></script>
+<script>
+import headerBlock from "../../../UI/header-block.vue";
+
+export default {
+  components: {
+    headerBlock,
+  },
+};
+</script>

@@ -1,0 +1,47 @@
+.social {
+  gap: 25px;
+  align-items: center;
+  justify-content: space-around;
+
+  &__link {
+    display: flex;
+    align-items: center;
+    transition: outline 0.3s ease-in-out;
+
+    &:hover {
+      svg {
+        fill: var(--yellow);
+      }
+    }
+
+    &:focus {
+      outline: 1px solid var(--yellow);
+
+      svg {
+        fill: var(--yellow);
+      }
+    }
+
+    &:active {
+      outline: none;
+
+      svg {
+        fill: var(--green);
+        opacity: 0.5;
+      }
+    }
+  }
+
+  &__svg {
+    fill: var(--white);
+    width: 20px;
+    height: 20px;
+    transition: fill 0.3s ease-in-out;
+  }
+}
+
+@media (max-width: 500px) {
+  .social {
+    display: none;
+  }
+}

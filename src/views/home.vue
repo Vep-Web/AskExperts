@@ -32,7 +32,7 @@ h2 {
   <section class="blog">
     <blog-component></blog-component>
   </section>
-  <section class="contact">
+  <section class="contact" id="contact">
     <contact-component></contact-component>
   </section>
 </template>

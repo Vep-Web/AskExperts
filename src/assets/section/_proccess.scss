@@ -1,14 +1,15 @@
 .proccess {
-  margin: 150px 0;
+  margin: 152px 0;
 
   &__container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 115px;
+    gap: 55px;
+    justify-content: space-between;
   }
 
   &__descr {
-    margin-bottom: 8px;
+    margin-bottom: 5px;
   }
 
   &__title {
@@ -16,11 +17,16 @@
   }
 
   &__text {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
   }
 
   &__list {
     margin-top: 10px;
+  }
+
+  &__list--width {
+    margin-top: 40px;
+    max-width: 460px;
   }
 }
 

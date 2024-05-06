@@ -4,7 +4,9 @@
   <div class="proccess__container container">
     <div class="proccess__left">
       <div class="process__block">
-        <span class="proccess__descr descr descr-green">Proccess</span>
+        <header-block color="green" class="proccess__descr"
+          ><slot>Proccess</slot></header-block
+        >
         <h2 class="proccess__title t-45">
           There have some easy steps to join with us!
         </h2>
@@ -14,8 +16,11 @@
           collaborative thinking to further the overall value proposition.
         </p>
       </div>
-      <ul class="proccess__list list-reset card-horizon" role="list">
-        <card-horizon class="card-horizon--border">
+      <ul
+        class="proccess__list proccess__list--width list-reset card-horizon"
+        role="list"
+      >
+        <card-horizon class="card-horizon__item--border">
           <template v-slot:left>
             <span class="card-horizon__decor decor-yellow">1</span>
           </template>
@@ -26,7 +31,7 @@
             </p>
           </template>
         </card-horizon>
-        <card-horizon class="card-horizon--border">
+        <card-horizon class="card-horizon__item--border">
           <template v-slot:left>
             <span class="card-horizon__decor decor-green">2</span>
           </template>
@@ -38,7 +43,7 @@
             </p>
           </template>
         </card-horizon>
-        <card-horizon class="card-horizon--border">
+        <card-horizon class="card-horizon__item--border">
           <template v-slot:left>
             <span class="card-horizon__decor decor-black">3</span>
           </template>
@@ -54,8 +59,8 @@
     </div>
 
     <div class="proccess__right">
-      <span class="proccess__descr descr descr-yellow"
-        >30 Years of Experience</span
+      <header-block class="proccess__descr"
+        ><slot>Growing with our clients</slot></header-block
       >
       <h2 class="proccess__title t-45">30 Years of Experience</h2>
       <p class="proccess__text t-16">
@@ -231,11 +236,13 @@
 <script>
 import cardHorizon from "../../../UI/card-horizon.vue";
 import cardUi from "../../../UI/card.vue";
+import headerBlock from "../../../UI/header-block.vue";
 
 export default {
   components: {
     cardHorizon,
     cardUi,
+    headerBlock,
   },
 };
 </script>
