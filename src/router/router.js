@@ -90,7 +90,7 @@ const router = createRouter({
       component: ServiceDetail,
     },
     {
-      path: "/team_detail",
+      path: "/team-detail",
       name: "TeamDetail",
       component: TeamDetail,
     },

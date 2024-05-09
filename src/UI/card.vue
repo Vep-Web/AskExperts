@@ -13,4 +13,13 @@
   </li>
 </template>
 
-<script setup></script>
+<script>
+export default {
+  // props: {
+  //   position: {
+  //     tupe: String,
+  //     default: "",
+  //   },
+  // },
+};
+</script>

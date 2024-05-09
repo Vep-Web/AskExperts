@@ -83,7 +83,7 @@
           <h2 class="footer__title t-20">Company</h2>
           <ul class="footer__list">
             <li class="footer__item">
-              <router-link to="error/" class="footer__link link-reset t-16"
+              <router-link to="about/" class="footer__link link-reset t-16"
                 >About
               </router-link>
             </li>

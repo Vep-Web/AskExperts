@@ -1,5 +1,17 @@
 <style scoped></style>
 
-<template></template>
+<template>
+  <section class="error">
+    <error-section> </error-section>
+  </section>
+</template>
 
-<script setup></script>
+<script>
+import errorSection from "../components/section/error/error404.vue";
+
+export default {
+  components: {
+    errorSection,
+  },
+};
+</script>

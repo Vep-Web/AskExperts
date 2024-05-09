@@ -1,0 +1,114 @@
+.capital {
+  padding: 175px 0;
+  margin-bottom: 25px;
+
+  &__content {
+    border-radius: 29px;
+    padding: 48px 60px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    max-width: 790px;
+    backdrop-filter: blur(11px);
+    background: rgba(255, 255, 255, 0.85);
+  }
+
+  &__title {
+    margin-top: 20px;
+  }
+}
+
+.background {
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+}
+
+.bac-about {
+  background-image: url(@/img/image1.jpg);
+}
+
+.bac-services {
+  background-image: url(@/img/image2.jpg);
+}
+
+.det-services {
+  background-image: url(@/img/image3.jpg);
+}
+
+.bac-team {
+  background-image: url(@/img/image4.jpg);
+}
+
+.bac-studies {
+  background-image: url(@/img/image5.jpg);
+}
+
+.det-studies {
+  background-image: url(@/img/image6.jpg);
+}
+
+.bac-blog {
+  background-image: url(@/img/image7.jpg);
+}
+
+.det-blog {
+  background-image: url(@/img/image8.jpg);
+}
+
+.bac-contact {
+  background-image: url(@/img/image9.jpg);
+}
+
+.bac-log {
+  background-image: url(@/img/image10.jpg);
+}
+
+.det-licenses {
+  background-image: url(@/img/image11.jpg);
+}
+
+.bac-protection {
+  background-image: url(@/img/image12.jpg);
+}
+
+@media (max-width: 1400px) {
+}
+
+@media (max-width: 1200px) {
+  .capital {
+    padding: 150px 0;
+  }
+}
+
+@media (max-width: 992px) {
+  .capital {
+    padding: 100px 0;
+
+    &__content {
+      padding: 30px;
+      max-width: 500px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .capital {
+    padding: 50px 0;
+
+    &__content {
+      max-width: 500px;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .capital {
+    padding: 25px 0;
+
+    &__content {
+      padding: 15px;
+      max-width: 500px;
+    }
+  }
+}

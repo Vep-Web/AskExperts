@@ -38,6 +38,20 @@
     height: 20px;
     transition: fill 0.3s ease-in-out;
   }
+
+  &__svg--blakc {
+    fill: var(--black);
+
+    &:hover {
+      fill: var(--yellow);
+    }
+
+    &:active {
+      outline: none;
+      fill: var(--green);
+      opacity: 0.5;
+    }
+  }
 }
 
 @media (max-width: 500px) {

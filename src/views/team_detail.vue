@@ -1,5 +1,7 @@
 <style scoped></style>
 
-<template></template>
+<template>
+  <h1>asfgedsagsdghbsdfhsdfhg</h1>
+</template>
 
-<script setup></script>
+<script></script>

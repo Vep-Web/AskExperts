@@ -146,33 +146,18 @@
         </router-link>
       </li>
     </ul>
-    <ul class="analytical__list statistics list-reset">
-      <li class="statistics__item">
-        <h3 class="statistics__title t-50">1128+</h3>
-        <span class="statistics__text t-18">Successful Work</span>
-      </li>
-      <li class="statistics__item">
-        <h3 class="statistics__title t-50">908+</h3>
-        <span class="statistics__text t-18">Team member</span>
-      </li>
-      <li class="statistics__item">
-        <h3 class="statistics__title t-50">258+</h3>
-        <span class="statistics__text t-18">Happy Customers</span>
-      </li>
-      <li class="statistics__item">
-        <h3 class="statistics__title t-50">564+</h3>
-        <span class="statistics__text t-18">Creative Idea</span>
-      </li>
-    </ul>
+    <statistics-ui class="analytical__list"></statistics-ui>
   </div>
 </template>
 
 <script>
 import headerBlock from "../../../UI/header-block.vue";
+import statisticsUi from "../../../UI/statistics.vue";
 
 export default {
   components: {
     headerBlock,
+    statisticsUi,
   },
 };
 </script>

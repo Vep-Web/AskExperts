@@ -1,3 +1,22 @@
+.t-120 {
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 120px;
+  line-height: 116%;
+  text-align: center;
+  color: #181818;
+  margin: 0;
+}
+.t-60 {
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 116%;
+  text-align: center;
+  color: #181818;
+  margin: 0;
+}
+
 .t-50 {
   font-family: var(--second-family);
   font-weight: 600;
@@ -133,8 +152,15 @@
 }
 
 @media (max-width: 576px) {
-  .t-50 {
+  .t-120 {
+    font-size: 60px;
+  }
+  .t-60 {
     font-size: 40px;
+  }
+
+  .t-50 {
+    font-size: 35px;
   }
 
   .t-45 {

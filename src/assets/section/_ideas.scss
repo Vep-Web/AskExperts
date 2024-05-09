@@ -1,0 +1,100 @@
+.ideas {
+  margin-top: 95px;
+  margin-bottom: 150px;
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__content {
+    max-width: 590px;
+    width: 100%;
+  }
+
+  &__descr {
+    margin-bottom: 15px;
+  }
+
+  &__title {
+    margin-bottom: 10px;
+  }
+
+  &__list {
+    margin-top: 17px;
+    padding-left: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  &__item {
+    position: relative;
+  }
+
+  &__item::before {
+    position: absolute;
+    top: 40%;
+    left: -40px;
+    content: url(../svg/check.svg);
+    transform: translateY(-50%);
+  }
+}
+
+@media (max-width: 1200px) {
+  .ideas {
+    margin-top: 50px;
+    margin-bottom: 100px;
+
+    &__container {
+      position: relative;
+      justify-content: flex-end;
+    }
+
+    &__content {
+      position: absolute;
+      left: 6%;
+      top: 0;
+      backdrop-filter: blur(6px);
+      background: rgba(255, 255, 255, 0.64);
+      border-radius: 10px;
+      padding: 15px;
+      max-width: 500px;
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .ideas {
+    margin-bottom: 75px;
+  }
+}
+
+@media (max-width: 768px) {
+  .ideas {
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 576px) {
+  .ideas {
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+    &__container {
+      position: relative;
+      justify-content: center;
+    }
+
+    &__content {
+      position: relative;
+      padding: 0;
+      max-width: 576px;
+      left: 0;
+    }
+
+    &__img {
+      display: none;
+    }
+  }
+}
