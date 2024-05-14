@@ -26,7 +26,7 @@
           />
         </picture>
         <a
-          href="#"
+          href="{{ link }}"
           class="history__link link-reset link-play"
           aria-label="Link to play vidio for YouTube"
         ></a>
@@ -39,6 +39,9 @@
 import headerBlock from "../../../UI/header-block.vue";
 
 export default {
+  data() {
+    link: "/";
+  },
   components: {
     headerBlock,
   },

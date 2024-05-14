@@ -16,9 +16,11 @@
   <section class="clients">
     <clients-section></clients-section>
   </section>
+
   <section class="history">
     <history-section></history-section>
   </section>
+
   <section class="team">
     <team-section></team-section>
   </section>

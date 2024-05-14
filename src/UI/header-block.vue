@@ -20,6 +20,10 @@
   color: var(--white);
   background-color: var(--green);
 }
+
+.descr-grey {
+  background: #3e3e3e;
+}
 </style>
 
 <template>

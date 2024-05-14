@@ -1,4 +1,8 @@
-<style scoped></style>
+<style scoped>
+.capital {
+  margin: 0;
+}
+</style>
 
 <template>
   <section class="capital background bac-services">
@@ -11,21 +15,28 @@
     </main-section>
   </section>
   <section class="control">
-    <control-component></control-component>
+    <control-section></control-section>
   </section>
+  <section class="process"><process-section></process-section></section>
+  <section class="pricing"><pricing-section></pricing-section></section>
   <section class="contact" id="contact">
-    <contact-component></contact-component>
+    <contact-section></contact-section>
   </section>
 </template>
 
 <script>
-import contactComponent from "../components/section/home/contact.vue";
-import controlComponent from "../components/section/home/control.vue";
+import contactSection from "../components/section/home/contact.vue";
+import controlSection from "../components/section/home/control.vue";
+import pricingSection from "../components/section/services/pricing.vue";
+import processSection from "../components/section/services/process.vue";
 import mainSection from "../UI/main-section.vue";
+
 export default {
   components: {
-    contactComponent,
-    controlComponent,
+    contactSection,
+    controlSection,
+    pricingSection,
+    processSection,
     mainSection,
   },
 };

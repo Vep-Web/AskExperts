@@ -6,11 +6,12 @@ h2 {
 
 <template>
   <section class="hero">
-    <hero-component></hero-component>
+    <div class="hero__background">
+      <hero-component></hero-component>
+    </div>
+    <clients-ui></clients-ui>
   </section>
-  <section class="client">
-    <client-component></client-component>
-  </section>
+
   <section class="teams">
     <teams-component></teams-component>
   </section>
@@ -39,7 +40,7 @@ h2 {
 
 <script>
 import heroComponent from "../components/section/home/hero.vue";
-import clientComponent from "../components/section/home/client.vue";
+import clientsUi from "../UI/client.vue";
 import teamsComponent from "../components/section/home/teams.vue";
 import controlComponent from "../components/section/home/control.vue";
 import proccessComponent from "../components/section/home/proccess.vue";
@@ -55,7 +56,7 @@ export default {
   },
   components: {
     heroComponent,
-    clientComponent,
+    clientsUi,
     teamsComponent,
     controlComponent,
     proccessComponent,

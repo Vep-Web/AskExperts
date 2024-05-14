@@ -1,12 +1,14 @@
 .hero {
-  background-image: url(./img/hero1.png);
-  background-color: var(--grey);
-  background-repeat: no-repeat;
-  background-size: cover;
-  object-fit: cover;
-  width: 100%;
-  height: auto;
-  padding: 195px 0;
+  &__background {
+    background-image: url(./img/hero1.png);
+    background-color: var(--grey);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+    padding: 195px 0;
+  }
 
   &__container {
     max-width: 1545px;
@@ -108,13 +110,17 @@
 
 @media (max-width: 1200px) {
   .hero {
-    padding: 100px 0;
+    &__background {
+      padding: 100px 0;
+    }
   }
 }
 
 @media (max-width: 992px) {
   .hero {
-    padding: 25px 0;
+    &__background {
+      padding: 25px 0;
+    }
   }
 }
 

@@ -85,7 +85,7 @@ const router = createRouter({
       component: CaseStudiesDetail,
     },
     {
-      path: "/service_detail",
+      path: "/service-detail",
       name: "ServiceDetail",
       component: ServiceDetail,
     },
