@@ -57,7 +57,7 @@
         </svg>
       </router-link>
       <nav class="header__nav nav">
-        <ul class="nav__list list-reset d-flex" role="list">
+        <ul class="nav__list list-reset d-flex">
           <li class="nav__item">
             <router-link
               to="/"

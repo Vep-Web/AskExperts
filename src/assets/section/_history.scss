@@ -1,6 +1,12 @@
 .history {
   margin: 150px 0;
 
+  &--black {
+    background: var(--black);
+    padding: 150px 0;
+    margin: 0;
+  }
+
   &__content {
     display: flex;
     flex-direction: column;
@@ -15,6 +21,10 @@
     text-align: center;
     margin-bottom: 10px;
     max-width: 730px;
+  }
+
+  &__title--color {
+    color: var(--white);
   }
 
   &__text {
@@ -45,24 +55,44 @@
 
 @media (max-width: 1200px) {
   .history {
-    margin: 100px;
+    margin: 100px 0;
+
+    &--black {
+      margin: 0;
+      padding: 100px 0;
+    }
   }
 }
 
 @media (max-width: 992px) {
   .history {
-    margin: 75px;
+    margin: 75px 0;
+
+    &--black {
+      margin: 0;
+      padding: 750px 0;
+    }
   }
 }
 
 @media (max-width: 768px) {
   .history {
-    margin: 50px;
+    margin: 50px 0;
+
+    &--black {
+      margin: 0;
+      padding: 50px 0;
+    }
   }
 }
 
 @media (max-width: 576px) {
   .history {
-    margin: 25px;
+    margin: 25px 0;
+
+    &--black {
+      margin: 0;
+      padding: 25px 0;
+    }
   }
 }

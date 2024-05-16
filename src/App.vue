@@ -42,6 +42,4 @@ export default {
     },
   },
 };
-// typeof openBurgerMenu;
-console.log(typeof counter);
 </script>

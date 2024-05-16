@@ -18,7 +18,36 @@
   </section>
 
   <section class="history">
-    <history-section></history-section>
+    <history-section>
+      <template v-slot:descr>Our History</template>
+      <template v-slot:title>
+        <h2 class="history__title t-45">
+          Better Website Means A User Experience
+        </h2>
+      </template>
+      <template v-slot:text>
+        Ippsum is the result of synergy between our teams and our customers. Our
+        company culture is focused on excellent productivity, customer
+        satisfaction, respect for team and individual achievements.</template
+      >
+      <template v-slot:video>
+        <picture>
+          <source srcset="@/img/history.webp" type="image/webp" />
+          <img
+            class="history__image"
+            src="@/img/history.jpg"
+            alt="Preview video"
+            width=""
+            height=""
+          />
+        </picture>
+        <a
+          href="#"
+          class="history__link link-reset link-play"
+          aria-label="Link to play vidio for YouTube"
+        ></a
+      ></template>
+    </history-section>
   </section>
 
   <section class="team">

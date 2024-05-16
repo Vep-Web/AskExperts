@@ -14,8 +14,34 @@
   <section class="work">
     <work-section></work-section>
   </section>
-  <section class="history"><history-section></history-section></section>
-  <!-- <section class="proccess"></section> -->
+  <section class="history history--black">
+    <history-section>
+      <template v-slot:descr>Our History</template>
+      <template v-slot:title>
+        <h2 class="history__title t-45 history__title--color">
+          Strategy for Every Stage in the Client's Journey
+        </h2>
+      </template>
+      <template v-slot:text> </template>
+      <template v-slot:video>
+        <img
+          class="history__image"
+          src="@/img/history2.png"
+          alt="Preview video"
+          width=""
+          height="" />
+
+        <a
+          href="#"
+          class="history__link link-reset link-play"
+          aria-label="Link to play vidio for YouTube"
+        ></a
+      ></template>
+    </history-section>
+  </section>
+  <section class="contact contact--m">
+    <contact-section></contact-section>
+  </section>
   <section class="questions">
     <questions-sectionfrom></questions-sectionfrom>
   </section>
@@ -26,7 +52,7 @@ import mainSection from "../UI/main-section.vue";
 import projectionsSection from "../components/section/servises_detail/projections.vue";
 import workSection from "../components/section/servises_detail/work.vue";
 import historySection from "../components/section/about/history.vue";
-// import proccessSection from '../components/section/servises-detail/projections.vue';
+import contactSection from "../components/section/servises_detail/contact.vue";
 import questionsSectionfrom from "../components/section/servises_detail/questions.vue";
 
 export default {
@@ -35,6 +61,7 @@ export default {
     projectionsSection,
     workSection,
     historySection,
+    contactSection,
     questionsSectionfrom,
   },
 };

@@ -1,15 +1,28 @@
 .contact {
   margin: 155px 0 100px;
 
+  &--m {
+    margin: 180px 0 140px;
+  }
+
   &__container {
     display: flex;
     justify-content: space-between;
     column-gap: 100px;
   }
 
+  &__container--width {
+    max-width: 1365px;
+    gap: 0;
+  }
+
   &__left {
     max-width: 400px;
     width: 100%;
+  }
+
+  &__left--m {
+    margin-left: 75px;
   }
 
   &__title {
@@ -26,6 +39,10 @@
     padding: 0 10px;
     // max-width: 688px;
   }
+
+  &__img {
+    width: 100%;
+  }
 }
 
 @media (max-width: 1400px) {
@@ -38,6 +55,14 @@
     &__container {
       column-gap: 30px;
     }
+
+    &__container--width {
+      align-items: center;
+    }
+
+    &__left--m {
+      margin: 0;
+    }
   }
 }
 
@@ -45,6 +70,14 @@
   .contact {
     &__form {
       padding: 0;
+    }
+
+    &__img {
+      display: none;
+    }
+
+    &__left--m {
+      max-width: none;
     }
   }
 }
