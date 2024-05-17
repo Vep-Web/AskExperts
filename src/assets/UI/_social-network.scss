@@ -52,6 +52,22 @@
       opacity: 0.5;
     }
   }
+
+  &__svg--width {
+    width: 30px;
+    height: 30px;
+    fill: var(--black);
+
+    &:hover {
+      fill: var(--yellow);
+    }
+
+    &:active {
+      outline: none;
+      fill: var(--green);
+      opacity: 0.5;
+    }
+  }
 }
 
 @media (max-width: 500px) {

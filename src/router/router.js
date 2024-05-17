@@ -1,19 +1,19 @@
 import { createRouter, createWebHistory } from "vue-router";
-import Home from "@/views/home.vue";
-import About from "@/views/about.vue";
-import BlogDetail from "@/views/blog_detail.vue";
-import Blog from "@/views/blog.vue";
-import CaseStudiesDetail from "@/views/case-studies_detail.vue";
-import CaseStudies from "@/views/case-studies.vue";
-import Contact from "@/views/contact.vue";
-import ErrorPage from "@/views/error.vue";
-import Licenses from "@/views/licenses.vue";
-import Log from "@/views/log.vue";
-import Protection from "@/views/protection.vue";
-import ServiceDetail from "@/views/service_detail.vue";
-import Services from "@/views/services.vue";
-import TeamDetail from "@/views/team_detail.vue";
-import Team from "@/views/team.vue";
+import Home from "@/views/homeView.vue";
+import About from "@/views/aboutView.vue";
+import BlogDetail from "@/views/blog_detailView.vue";
+import Blog from "@/views/blogView.vue";
+import CaseStudiesDetail from "@/views/case-studies_detailView.vue";
+import CaseStudies from "@/views/case-studiesView.vue";
+import Contact from "@/views/contactView.vue";
+import ErrorPage from "@/views/errorView.vue";
+import Licenses from "@/views/licensesView.vue";
+import Log from "@/views/logView.vue";
+import Protection from "@/views/protectionView.vue";
+import ServiceDetail from "@/views/service_detailView.vue";
+import Services from "@/views/servicesView.vue";
+import TeamDetail from "@/views/team_detailView.vue";
+import Team from "@/views/teamView.vue";
 
 const router = createRouter({
   history: createWebHistory(),
@@ -90,9 +90,10 @@ const router = createRouter({
       component: ServiceDetail,
     },
     {
-      path: "/team-detail",
+      path: "/team/:id(\\d+)",
       name: "TeamDetail",
       component: TeamDetail,
+      props: true,
     },
   ],
 });

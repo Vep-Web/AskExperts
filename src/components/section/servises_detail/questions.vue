@@ -32,23 +32,8 @@ import { ref } from "vue";
 import headerBlock from "../../../UI/header-block.vue";
 
 export default {
-  data() {
-    return {
-      flag: true,
-    };
-  },
   components: {
     headerBlock,
-  },
-
-  methods: {
-    showBlock(item) {
-      if (this.flag) {
-        return (this.flag = false);
-      } else {
-        return (this.flag = true);
-      }
-    },
   },
 
   setup() {

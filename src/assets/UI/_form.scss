@@ -4,6 +4,11 @@
   column-gap: 25px;
   row-gap: 26px;
 
+  &--flex {
+    display: flex;
+    justify-content: space-between;
+  }
+
   &__label {
     display: inline-block;
   }
@@ -40,9 +45,22 @@
     padding-top: 20px;
   }
 
+  &__inp--newsletter {
+    width: 300px;
+    padding: 22px 18px;
+  }
+
   &__btn {
     padding: 16px 22px;
-    height: 61px;
+    height: auto;
+  }
+
+  &__btn--padding {
+    padding: 15px 25px;
+  }
+
+  &__btn--pad {
+    padding: 15px 45px;
   }
 }
 
@@ -72,8 +90,23 @@
     &__inp--width {
       max-width: 768px;
     }
+
+    &--flex {
+      justify-content: normal;
+      flex-wrap: wrap;
+    }
   }
 }
 
 @media (max-width: 576px) {
+  .form {
+    &__label {
+      width: 100%;
+    }
+
+    &__inp--newsletter {
+      max-width: 576px;
+      width: 100%;
+    }
+  }
 }
