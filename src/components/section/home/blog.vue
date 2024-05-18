@@ -13,7 +13,15 @@
         >More News</a
       >
     </div>
-    <ul class="blog__list list-reset card card--column">
+    <ul
+      :class="[
+        'blog__list',
+        'list-reset',
+        'card',
+        'card--column',
+        `blog__list--${indentation}`,
+      ]"
+    >
       <card-ui class="card__item--blog">
         <template v-slot:top>
           <picture class="card__picture">
@@ -38,8 +46,10 @@
           <div class="card__footer">
             <div class="card__author">
               <img
+                class="card__img card__img--radius"
                 src="/src/img/blog3.png"
                 alt="Author of the article John Carter"
+                width="60"
               />
               <span class="card__name">John Carter</span>
             </div>
@@ -76,6 +86,7 @@
           <div class="card__footer">
             <div class="card__author">
               <img
+                class="card__img card__img--radius"
                 src="/src/img/blog4.png"
                 alt="Author of the article John Carter"
               />
@@ -90,6 +101,7 @@
           </div>
         </template>
       </card-ui>
+      <slot></slot>
     </ul>
   </div>
 </template>
@@ -102,6 +114,13 @@ export default {
   components: {
     headerBlock,
     CardUi,
+  },
+
+  props: {
+    indentation: {
+      tupe: String,
+      default: "",
+    },
   },
 };
 </script>

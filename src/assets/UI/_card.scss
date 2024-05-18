@@ -91,7 +91,11 @@
 
   &__img {
     border-radius: 20px;
-    width: 100%;
+    // width: 100%;
+  }
+
+  &__img--radius {
+    border-radius: 100%;
   }
 
   &__text {

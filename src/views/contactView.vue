@@ -8,6 +8,9 @@
       <template v-slot:title> Feel Free To Reach Us </template>
     </main-section>
   </section>
+  <section class="connection">
+    <connection-section></connection-section>
+  </section>
   <section class="distribution">
     <distribution-section></distribution-section>
   </section>
@@ -20,11 +23,14 @@
 import contactComponent from "../components/section/home/contact.vue";
 import mainSection from "../UI/main-section.vue";
 import distributionSection from "../components/section/team-detail/distribution.vue";
+import connectionSection from "../components/section/contact/connection.vue";
+
 export default {
   components: {
     contactComponent,
     mainSection,
     distributionSection,
+    connectionSection,
   },
 };
 </script>

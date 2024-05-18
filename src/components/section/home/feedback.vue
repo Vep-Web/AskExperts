@@ -13,8 +13,22 @@
       :modules="modules"
       class="feedback__swiper mySwiper"
     >
-      <div ref="prev" class="swiper-button-prev feedback__btn-prev">Prev</div>
-      <div ref="next" class="swiper-button-next feedback__btn-next">Next</div>
+      <div
+        ref="prev"
+        class="swiper-button-prev feedback__btn-prev"
+        tabindex="0"
+        role="button"
+      >
+        Prev
+      </div>
+      <div
+        ref="next"
+        class="swiper-button-next feedback__btn-next"
+        tabindex="0"
+        role="button"
+      >
+        Next
+      </div>
       <swiper-slide class="feedback__slide">
         <h2 class="feedback__title t-40">
           “Lorem ipsum dolor sit amet, consectetur

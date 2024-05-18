@@ -8,7 +8,7 @@
     display: flex;
     align-items: flex-start;
     flex-direction: column;
-    max-width: 790px;
+    max-width: 825px;
     backdrop-filter: blur(11px);
     background: rgba(255, 255, 255, 0.85);
   }
@@ -50,18 +50,22 @@
 
 .det-studies {
   background-image: url(@/img/image6.jpg);
+  padding: 140px 0;
 }
 
 .bac-blog {
   background-image: url(@/img/image7.jpg);
+  padding: 140px 0;
 }
 
 .det-blog {
   background-image: url(@/img/image8.jpg);
+  padding: 235px 0;
 }
 
 .bac-contact {
   background-image: url(@/img/image9.jpg);
+  padding: 165px 0;
 }
 
 .bac-log {

@@ -2,6 +2,12 @@
   background-color: #f5f5f5;
   padding: 175px 0;
 
+  &-width {
+    background-color: var(--white);
+    padding: 0;
+    margin: 175px 0;
+  }
+
   &__header {
     display: flex;
     align-items: center;
@@ -24,17 +30,34 @@
   &__list {
     gap: 35px;
   }
+
+  &__list--indentation {
+    column-gap: 35px;
+    row-gap: 58px;
+    margin-top: 50px;
+  }
 }
 
 @media (max-width: 1400px) {
 }
 
 @media (max-width: 1200px) {
+  .blog {
+    &-width {
+      margin: 100px 0;
+      padding: 0;
+    }
+  }
 }
 
 @media (max-width: 992px) {
   .blog {
     padding: 100px 0;
+
+    &-width {
+      padding: 0;
+    }
+
     &__list {
       gap: 15px;
     }
@@ -47,6 +70,11 @@
 @media (max-width: 576px) {
   .blog {
     padding: 50px 0;
+
+    &-width {
+      margin: 50px 0;
+      padding: 0;
+    }
 
     &__header {
       flex-wrap: wrap;

@@ -13,8 +13,14 @@
     margin-top: 23px;
   }
 
+  &__slide {
+    display: flex;
+    flex-direction: column;
+  }
+
   &__title {
     color: #cecece;
+    text-align: center;
   }
 
   &__title--color {
@@ -27,6 +33,9 @@
 
   &__profile {
     margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   &__img {

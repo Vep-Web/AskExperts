@@ -32,6 +32,13 @@
   align-items: center;
 }
 
+.swiper-button-prev,
+.swiper-button-next {
+  &:focus {
+    border: 2px solid var(--yellow);
+  }
+}
+
 // .swiper-slide img {
 //   display: block;
 //   width: 100%;

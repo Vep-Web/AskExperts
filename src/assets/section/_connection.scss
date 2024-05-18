@@ -1,0 +1,138 @@
+.connection {
+  margin: 85px 0 150px;
+
+  &__container {
+    max-width: 1410px;
+    display: flex;
+    column-gap: 80px;
+    align-items: center;
+    position: relative;
+  }
+
+  &__content {
+    max-width: 480px;
+    padding: 135px 0 70px;
+  }
+
+  &__descr {
+    margin-bottom: 10px;
+  }
+
+  &__title {
+    margin-bottom: 5px;
+  }
+
+  &__text {
+    margin-top: 10px;
+  }
+
+  &__list {
+    margin-top: 35px;
+    padding-left: 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+  }
+
+  &__item {
+    position: relative;
+    padding: 5px 0;
+  }
+
+  &__item:first-child::after {
+    position: absolute;
+    content: url(../svg/connection2.svg);
+    left: -70px;
+    top: 0;
+  }
+
+  &__item:nth-child(2n)::after {
+    position: absolute;
+    content: url(../svg/connection1.svg);
+    left: -70px;
+    top: 0;
+  }
+
+  &__item:last-child::after {
+    position: absolute;
+    content: url(../svg/connection3.svg);
+    left: -70px;
+    top: 0;
+  }
+
+  &__link {
+    font-family: var(--second-family);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 116%;
+    color: #181818;
+    transition: color 0.3s ease-in-out, outline 0.3s ease-in-out;
+
+    &:hover {
+      color: var(--yellow);
+    }
+
+    &:focus {
+      color: var(--yellow);
+      outline: 2px solid var(--yellow);
+    }
+
+    &:active {
+      color: var(--green);
+      outline: none;
+    }
+  }
+}
+
+@media (max-width: 1400px) {
+}
+
+@media (max-width: 1200px) {
+  .connection {
+    margin: 100px 0;
+
+    &__img {
+      max-width: 500px;
+      width: 100%;
+    }
+
+    &__content {
+      position: absolute;
+      right: 5%;
+      top: 50%;
+      backdrop-filter: blur(6px);
+      background: rgba(255, 255, 255, 0.64);
+      border-radius: 10px;
+      padding: 10px 5px;
+      transform: translateY(-50%);
+    }
+  }
+}
+
+@media (max-width: 992px) {
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 576px) {
+  .connection {
+    margin: 50px 0;
+
+    &__container {
+      gap: 0;
+    }
+
+    &__img {
+      display: none;
+    }
+
+    &__content {
+      max-width: 576px;
+      position: relative;
+      right: 0;
+      top: 0;
+      transform: translateY(0);
+    }
+  }
+}

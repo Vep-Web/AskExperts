@@ -10,13 +10,19 @@
       </template>
     </main-section>
   </section>
+  <section class="article">
+    <article-section></article-section>
+  </section>
 </template>
 
 <script>
 import mainSection from "../UI/main-section.vue";
+import articleSection from "../components/section/blog/article.vue";
+
 export default {
   components: {
     mainSection,
+    articleSection,
   },
 };
 </script>
