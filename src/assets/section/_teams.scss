@@ -54,14 +54,14 @@
   }
 
   .star::before {
-    content: url(./svg/Star.svg);
+    content: url(../svg/Star.svg);
     position: absolute;
     top: 1px;
     left: 0;
   }
 
   .smile:before {
-    content: url(./svg/smile.svg);
+    content: url(../svg/smile.svg);
     position: absolute;
     top: 1px;
     left: 0;

@@ -1,7 +1,25 @@
-# Vue 3 + Vite
+# AskExperts
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Данный проект разработан в учебных целях с использованием Vuе + Vite
 
-## Recommended IDE Setup
+## Установка
 
-- [VS Code](https://code.visualstudio.com/) + [Vue - Official](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (previously Volar) and disable Vetur
+- `npm i` - установка всех пакетов.
+- `npm run dev` - запуск сервера для просмотра страниц
+
+## Страницы приложения
+
+- `/` - Главная
+- `/about` - О нас
+- `/blog` - Блог
+- `/case-studies` - Работы студентов
+- `/contact` - Контактная информация
+- `/error` - 404 страница
+- `/services` - Сервис
+- `/team` - Команда
+- `/blog-detail` - Детальная страница блога
+- `/case-detail` - Детальная страница проекта
+- `/service-detail` - Детальная страница услуг
+- `/team-detail` - Детальная страница человека
+
+## Просмотр на сервере

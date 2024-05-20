@@ -1,6 +1,6 @@
 .hero {
   &__background {
-    background-image: url(./img/hero1.png);
+    background-image: url(@/img/hero1.png);
     background-color: var(--grey);
     background-repeat: no-repeat;
     background-size: cover;
@@ -34,26 +34,8 @@
     margin-top: 40px;
   }
 
-  // &__link {
-  //   border-radius: 42px;
-  //   border: 2px solid var(--black);
-  //   padding: 19px 37px;
-  //   background-color: var(--black);
-  //   color: var(--white);
-  //   transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out,
-  //     border 0.3s ease-in-out;
-
-  //   &:hover {
-  //     background-color: var(--white);
-  //     color: var(--black);
-  //     border: 2px solid var(--black);
-  //   }
-
-  // }
-
   &__icon {
     stroke: var(--black);
-    // fill: #4eaf4e;
   }
 
   &__btn {
@@ -129,8 +111,6 @@
 
 @media (max-width: 576px) {
   .hero {
-    // background-image: none;
-
     &__content {
       padding: 15px;
     }
