@@ -3,7 +3,7 @@
 <template>
   <div class="proccess__container container">
     <div class="proccess__left">
-      <div class="process__block">
+      <div class="proccess__block">
         <header-block color="green" class="proccess__descr"
           ><slot>Proccess</slot></header-block
         >
@@ -16,10 +16,7 @@
           collaborative thinking to further the overall value proposition.
         </p>
       </div>
-      <ul
-        class="proccess__list proccess__list--width list-reset card-horizon"
-        role="list"
-      >
+      <ul class="proccess__list proccess__list--width list-reset card-horizon">
         <card-horizon class="card-horizon__item--border">
           <template v-slot:left>
             <span class="card-horizon__decor decor-yellow">1</span>
@@ -74,7 +71,7 @@
         collaborative thinking to further the overall value proposition.
       </p>
 
-      <ul class="proccess__list list-reset card card--column" role="list">
+      <ul class="proccess__list list-reset card card--column">
         <card-ui class="card__item--size">
           <template v-slot:top>
             <svg

@@ -4,13 +4,7 @@
   <div class="process__container container">
     <picture class="process__picture">
       <source srcset="@/img/process.webp" type="image/webp" />
-      <img
-        class="process__img"
-        src="@/img/process.jpg"
-        alt=""
-        width=""
-        height=""
-      />
+      <img class="process__img" src="@/img/process.jpg" alt="Decorativ image" />
     </picture>
     <div class="process__content">
       <header-block class="process__descr">Process</header-block>

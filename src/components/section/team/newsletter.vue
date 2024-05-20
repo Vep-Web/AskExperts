@@ -33,7 +33,7 @@
       <img
         class="newsletter__img"
         src="@/img/newsletter.png"
-        alt=""
+        alt="Decorativ image"
         width="640"
         height="410"
       />

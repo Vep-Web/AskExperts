@@ -17,9 +17,7 @@
               <img
                 class="card__img"
                 src="/src/img/blog33.jpg"
-                alt=""
-                width=""
-                height=""
+                alt="Image article"
               />
             </picture>
           </template>
@@ -44,7 +42,7 @@
               </div>
               <span class="card__data t-16">September 1, 2022</span>
               <router-link
-                to="error"
+                to="/blog-detail"
                 class="card__link link-reset link link-black"
                 >Read More</router-link
               >
@@ -57,9 +55,7 @@
               <img
                 class="card__img"
                 src="/src/img/blog44.jpg"
-                alt=""
-                width=""
-                height=""
+                alt="Image article"
               />
             </picture>
           </template>
@@ -84,7 +80,7 @@
               </div>
               <span class="card__data t-16">September 1, 2022</span>
               <router-link
-                to="error"
+                to="/blog-detail"
                 class="card__link link-reset link link-black"
                 >Read More</router-link
               >
@@ -97,9 +93,7 @@
               <img
                 class="card__img"
                 src="/src/img/blog5.jpg"
-                alt=""
-                width=""
-                height=""
+                alt="Image article"
               />
             </picture>
           </template>
@@ -124,7 +118,7 @@
               </div>
               <span class="card__data t-16">September 1, 2022</span>
               <router-link
-                to="error"
+                to="/blog-detail"
                 class="card__link link-reset link link-black"
                 >Read More</router-link
               >
@@ -137,9 +131,7 @@
               <img
                 class="card__img"
                 src="/src/img/blog6.jpg"
-                alt=""
-                width=""
-                height=""
+                alt="Image article"
               />
             </picture>
           </template>
@@ -164,7 +156,7 @@
               </div>
               <span class="card__data t-16">September 1, 2022</span>
               <router-link
-                to="error"
+                to="/blog-detail"
                 class="card__link link-reset link link-black"
                 >Read More</router-link
               >

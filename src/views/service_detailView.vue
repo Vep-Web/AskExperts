@@ -27,9 +27,7 @@
         <img
           class="history__image"
           src="@/img/history2.png"
-          alt="Preview video"
-          width=""
-          height="" />
+          alt="Preview video" />
 
         <a
           href="#"

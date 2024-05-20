@@ -19,8 +19,6 @@
         class="results__img"
         src="/src/img/results.png"
         alt="Decorativ image"
-        width=""
-        height=""
     /></picture>
   </div>
 </template>

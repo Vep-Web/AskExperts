@@ -4,7 +4,11 @@
   <div class="footer__container">
     <div class="footer__top container">
       <div class="footer__block">
-        <router-link to="/" class="footer__logo logo">
+        <router-link
+          to="/"
+          class="footer__logo logo"
+          aria-label="home page AskExperts"
+        >
           <svg
             width="183"
             height="34"
@@ -53,7 +57,7 @@
           <h2 class="footer__title t-20">Product</h2>
           <ul class="footer__list">
             <li class="footer__item">
-              <router-link to="error/" class="footer__link link-reset t-16"
+              <router-link to="/services" class="footer__link link-reset t-16"
                 >Service</router-link
               >
             </li>
@@ -63,7 +67,9 @@
               >
             </li>
             <li class="footer__item">
-              <router-link to="error/" class="footer__link link-reset t-16"
+              <router-link
+                to="/service-detail"
+                class="footer__link link-reset t-16"
                 >Single Service</router-link
               >
             </li>
@@ -83,17 +89,17 @@
           <h2 class="footer__title t-20">Company</h2>
           <ul class="footer__list">
             <li class="footer__item">
-              <router-link to="about/" class="footer__link link-reset t-16"
+              <router-link to="/about" class="footer__link link-reset t-16"
                 >About
               </router-link>
             </li>
             <li class="footer__item">
-              <router-link to="error/" class="footer__link link-reset t-16">
+              <router-link to="/blog" class="footer__link link-reset t-16">
                 News
               </router-link>
             </li>
             <li class="footer__item">
-              <router-link to="error/" class="footer__link link-reset t-16">
+              <router-link to="/contact" class="footer__link link-reset t-16">
                 Contacts
               </router-link>
             </li>
@@ -103,7 +109,7 @@
               </router-link>
             </li>
             <li class="footer__item">
-              <router-link to="error/" class="footer__link link-reset t-16">
+              <router-link to="/team" class="footer__link link-reset t-16">
                 Our team
               </router-link>
             </li>

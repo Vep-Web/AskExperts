@@ -42,7 +42,7 @@
             <source srcset="@/img/ava.webp" type="image/webp" />
             <img
               src="@/img/ava.jpg"
-              alt=""
+              alt="Photo client"
               width="210"
               height="210"
               class="feedback__img"
@@ -67,7 +67,7 @@
             <source srcset="@/img/ava.webp" type="image/webp" />
             <img
               src="@/img/ava.jpg"
-              alt=""
+              alt="Photo client"
               width="210"
               height="210"
               class="feedback__img"
@@ -92,7 +92,7 @@
             <source srcset="@/img/ava.webp" type="image/webp" />
             <img
               src="@/img/ava.jpg"
-              alt=""
+              alt="Photo client"
               width="210"
               height="210"
               class="feedback__img"

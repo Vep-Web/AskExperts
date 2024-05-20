@@ -9,8 +9,8 @@
           Take a look at our latest articles & resources
         </h2>
       </div>
-      <a href="/error/" class="blog__link link-reset link link-yellow"
-        >More News</a
+      <router-link to="/blog" class="blog__link link-reset link link-yellow"
+        >More News</router-link
       >
     </div>
     <ul
@@ -28,9 +28,7 @@
             <img
               class="card__img"
               src="/src/img/blog1.jpg"
-              alt=""
-              width=""
-              height=""
+              alt="Image article"
             />
           </picture>
         </template>
@@ -55,7 +53,7 @@
             </div>
             <span class="card__data t-16">September 1, 2022</span>
             <router-link
-              to="error"
+              to="/blog-detail"
               class="card__link link-reset link link-black"
               >Read More</router-link
             >
@@ -68,9 +66,7 @@
             <img
               class="card__img"
               src="/src/img/blog2.jpg"
-              alt=""
-              width=""
-              height=""
+              alt="Image article"
             />
           </picture>
         </template>
@@ -94,7 +90,7 @@
             </div>
             <span class="card__data t-16">September 1, 2022</span>
             <router-link
-              to="error"
+              to="/blog-detail"
               class="card__link link-reset link link-black"
               >Read More</router-link
             >

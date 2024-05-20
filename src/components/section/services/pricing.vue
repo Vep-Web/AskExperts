@@ -35,8 +35,10 @@
               </li>
               <li class="pricing__item pricing__item--p">Remote support</li>
             </ul>
-            <a href="#" class="pricing__link link link-reset link-white"
-              >Get This Plan</a
+            <router-link
+              to="/error"
+              class="pricing__link link link-reset link-white"
+              >Get This Plan</router-link
             >
           </div>
         </article>
@@ -72,10 +74,10 @@
               </li>
               <li class="pricing__item pricing__item--p">Remote support</li>
             </ul>
-            <a
-              href="#"
+            <router-link
+              to="/error"
               class="pricing__link pricing__link--b link link-reset link-yellow"
-              >Get This Plan</a
+              >Get This Plan</router-link
             >
           </div>
         </article>
@@ -111,8 +113,10 @@
               </li>
               <li class="pricing__item pricing__item--p">Remote support</li>
             </ul>
-            <a href="#" class="pricing__link link link-reset link-white"
-              >Get This Plan</a
+            <router-link
+              to="/error"
+              class="pricing__link link link-reset link-white"
+              >Get This Plan</router-link
             >
           </div>
         </article>

@@ -106,6 +106,60 @@
   }
 }
 
+.link-calc {
+  transition: color 0.3s ease-in-out, outline 0.3s ease-in-out;
+
+  &:hover {
+    color: var(--yellow);
+  }
+
+  &:focus {
+    color: var(--yellow);
+    outline: 2px solid var(--yellow);
+  }
+
+  &:active {
+    color: var(--green);
+    outline: none;
+  }
+}
+
+.btn-acc {
+  transition: color 0.3s ease-in-out, outline 0.3s ease-in-out;
+
+  &:hover {
+    color: var(--yellow);
+
+    .open-decor::after,
+    .open-decor::before,
+    .close-decor:after {
+      background: var(--yellow);
+    }
+  }
+
+  &:focus {
+    color: var(--yellow);
+    outline: 2px solid var(--yellow);
+
+    .open-decor::after,
+    .open-decor::before,
+    .close-decor:after {
+      background: var(--yellow);
+    }
+  }
+
+  &:active {
+    color: var(--green);
+    outline: none;
+
+    .open-decor::after,
+    .open-decor::before,
+    .close-decor:after {
+      background: var(--green);
+    }
+  }
+}
+
 .link-next {
   font-family: var(--font-family);
   font-weight: 600;

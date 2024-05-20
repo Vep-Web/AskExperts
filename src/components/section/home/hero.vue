@@ -10,7 +10,7 @@
       </span>
       <div class="hero__block">
         <router-link
-          to="servises/"
+          to="/services"
           class="hero__link link-reset link link-black"
           >Our Services</router-link
         >

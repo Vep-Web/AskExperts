@@ -14,8 +14,18 @@
         </p>
       </div>
       <div class="projections__right">
-        <div ref="next" class="swiper-button-next projections__btn-next"></div>
-        <div ref="prev" class="swiper-button-prev projections__btn-prev"></div>
+        <div
+          ref="next"
+          class="swiper-button-next projections__btn-next"
+          tabindex="0"
+          role="button"
+        ></div>
+        <div
+          ref="prev"
+          class="swiper-button-prev projections__btn-prev"
+          tabindex="0"
+          role="button"
+        ></div>
       </div>
     </div>
     <swiper

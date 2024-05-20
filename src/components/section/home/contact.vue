@@ -5,7 +5,7 @@
     <contact-info></contact-info>
     <form class="contact__form form" action="#" method="POST">
       <label class="form__label">
-        <h3 class="form__title t-16">Full Name</h3>
+        <span class="form__span t-16">Full Name</span>
         <input
           class="form__inp"
           type="text"
@@ -15,22 +15,21 @@
         />
       </label>
       <label class="form__label">
-        <h3 class="form__title t-16">Email</h3>
+        <span class="form__span t-16">Email</span>
         <input class="form__inp" type="email" placeholder="consult@mail.com" />
       </label>
       <label class="form__label">
-        <h3 class="form__title t-16">Phone</h3>
+        <span class="form__span t-16">Phone</span>
         <input class="form__inp" type="tel" placeholder="+008 654 231" />
       </label>
       <label class="form__label">
-        <h3 class="form__title t-16">Company(optional)</h3>
+        <span class="form__span t-16">Company(optional)</span>
         <input class="form__inp" type="email" placeholder="yourcompany.com" />
       </label>
       <label class="form__label form__label--width">
-        <h3 class="form__title t-16">Message</h3>
+        <span class="form__span t-16">Message</span>
         <textarea
           class="form__inp form__inp--width"
-          type="text"
           minlength="2"
           maxlength="1000"
           placeholder="Briefly tell us about your project and your current goals. How can we help you?"

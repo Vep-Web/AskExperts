@@ -7,7 +7,10 @@
       <h2 class="questions__title t-45">Customer Questions</h2>
       <ul class="questions__list list-reset">
         <li class="questions__item" v-for="item in accItems" :key="item.id">
-          <button class="questions__btn btn-reset" @click="showAcc(item)">
+          <button
+            class="questions__btn btn-reset btn-acc"
+            @click="showAcc(item)"
+          >
             {{ item.title }}
             <span
               class="questions__decor open-decor"

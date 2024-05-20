@@ -14,7 +14,7 @@
           DevOps.
         </p>
       </div>
-      <a href="/error/" class="clients__link link-reset link link-black"
+      <a href="/contact" class="clients__link link-reset link link-black"
         >Get in touch</a
       >
     </div>
@@ -22,7 +22,6 @@
       <card-ui class="card__item--bacgr">
         <template v-slot:top>
           <svg
-            class=""
             width="54"
             height="53"
             viewBox="0 0 54 53"
@@ -60,7 +59,7 @@
             accumsan augue Donec aliquam.
           </p>
           <router-link
-            to="error"
+            to="/error"
             class="card__link card__link--mar link link-next link-reset"
             >Read More</router-link
           >
@@ -112,7 +111,7 @@
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           </p>
           <router-link
-            to="error"
+            to="/error"
             class="card__link card__link--mar link link-next link-reset"
             >Read More</router-link
           >
@@ -158,7 +157,7 @@
             accumsan augue Donec aliquam.
           </p>
           <router-link
-            to="error"
+            to="/error"
             class="card__link card__link--mar link link-next link-reset"
             >Read More</router-link
           >
@@ -196,7 +195,7 @@
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           </p>
           <router-link
-            to="error"
+            to="/error"
             class="card__link card__link--mar link link-next link-reset"
             >Read More</router-link
           >

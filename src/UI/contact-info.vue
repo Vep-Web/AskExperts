@@ -32,7 +32,11 @@
         </template>
         <template v-slot:right>
           <h3 class="card-horizon__header t-16">Call Today</h3>
-          <p class="card-horizon__description t-20">+1 800 100 900</p>
+          <a
+            href="tel:1800100900"
+            class="card-horizon__description t-20 link-reset link-calc"
+            >+1 800 100 900</a
+          >
         </template>
       </card-horizon>
       <card-horizon>

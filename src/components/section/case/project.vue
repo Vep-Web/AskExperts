@@ -9,8 +9,6 @@
           class="project__img project__img--radius"
           src="@/img/project1.jpg"
           alt="Preview page project"
-          width=""
-          height=""
         />
       </picture>
       <div class="project__description">
@@ -33,7 +31,7 @@
           </li>
         </ul>
         <router-link
-          to="error/"
+          to="/error"
           class="project__link link-reset link link-yellow"
           >Live Preview</router-link
         >

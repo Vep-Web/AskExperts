@@ -37,8 +37,6 @@
             class="history__image"
             src="@/img/history.jpg"
             alt="Preview video"
-            width=""
-            height=""
           />
         </picture>
         <a

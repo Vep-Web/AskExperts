@@ -17,7 +17,8 @@
     grid-column: 2 span;
   }
 
-  &__title {
+  &__span {
+    display: block;
     margin-bottom: 8px;
     font-weight: 600;
     color: var(--black);

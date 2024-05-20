@@ -3,7 +3,7 @@
 <template>
   <div class="client">
     <div class="client__container container">
-      <ul class="client__list list-reset" role="list">
+      <ul class="client__list list-reset">
         <li class="client__item">
           <svg
             class="client__icon"

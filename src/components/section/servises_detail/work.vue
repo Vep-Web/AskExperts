@@ -4,13 +4,7 @@
   <div class="work__container container">
     <picture class="work__img">
       <source srcset="@/img/work.webp" type="image/webp" />
-      <img
-        class="work__img"
-        src="@/img/work.jpg"
-        alt="Decorativ image"
-        width=""
-        height=""
-      />
+      <img class="work__img" src="@/img/work.jpg" alt="Decorativ image" />
     </picture>
     <div class="work__left">
       <header-block class="work__descr">WE'LL WORK WITH YOU</header-block>

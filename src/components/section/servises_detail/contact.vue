@@ -5,13 +5,7 @@
     <contact-info class="contact__left--m"></contact-info>
     <picture>
       <source srcset="@/img/contact.webp" type="image/webp" />
-      <img
-        class="contact__img"
-        src="@/img/contact.jpg"
-        alt=""
-        width=""
-        height=""
-      />
+      <img class="contact__img" src="@/img/contact.jpg" alt="Decorativ image" />
     </picture>
   </div>
 </template>

@@ -14,7 +14,11 @@
 
   <div class="header__bot">
     <div class="header__container container">
-      <router-link to="/" class="header__logo logo">
+      <router-link
+        to="/"
+        class="header__logo logo"
+        aria-label="home page AskExperts"
+      >
         <svg
           width="183"
           height="34"
@@ -65,11 +69,10 @@
               class="nav__link link-reset t-17 link-decor"
               >Home</router-link
             >
-            <!-- link-active -->
           </li>
           <li class="nav__item">
             <router-link
-              to="error"
+              to="/case-studies"
               active-class="link-active"
               class="nav__link link-reset t-17 link-decor"
               >Pages</router-link
@@ -77,7 +80,7 @@
           </li>
           <li class="nav__item">
             <router-link
-              to="services"
+              to="/services"
               active-class="link-active"
               class="nav__link link-reset t-17 link-decor"
               >Services</router-link
@@ -85,7 +88,7 @@
           </li>
           <li class="nav__item">
             <router-link
-              to="error"
+              to="/case-detail"
               active-class="link-active"
               class="nav__link link-reset t-17 link-decor"
               >Work</router-link
@@ -93,15 +96,15 @@
           </li>
           <li class="nav__item">
             <router-link
-              to="error"
+              to="/blog"
               active-class="link-active"
               class="nav__link link-reset t-17 link-decor"
-              >Pages</router-link
+              >Blog</router-link
             >
           </li>
           <li class="nav__item">
             <router-link
-              to="contact"
+              to="/contact"
               active-class="link-active"
               class="nav__link link-reset t-17 link-decor"
               >Contact</router-link
@@ -113,7 +116,7 @@
       <button
         @click="openBurgerMenu"
         class="burger btn-reset"
-        aria-label="Открыть бургер меню"
+        aria-label="Open menu"
         aria-expanded="false"
         data-burger
         id="burger"

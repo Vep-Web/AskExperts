@@ -6,7 +6,7 @@
     <ul class="photo__list list-reset">
       <li class="photo__item">
         <router-link
-          to="error/"
+          to="/error"
           class="photo__link photo__link--block link-reset"
         >
           <picture>
@@ -21,7 +21,7 @@
       </li>
       <li class="photo__item">
         <router-link
-          to="error/"
+          to="/error"
           class="photo__link photo__link--block link-reset"
         >
           <picture>
@@ -36,7 +36,7 @@
       </li>
       <li class="photo__item">
         <router-link
-          to="error/"
+          to="/error"
           class="photo__link photo__link--block link-reset"
         >
           <picture>

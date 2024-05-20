@@ -17,8 +17,8 @@
         </div>
         <div class="bio__right">
           <ul class="bio__social social list-reset">
-            <li class="social__item social">
-              <a href="#" class="card__link-social">
+            <li class="social__item">
+              <a href="#" class="social__link" aria-label="Go to website">
                 <svg
                   class="social__svg social__svg--width"
                   width="30"
@@ -36,8 +36,8 @@
                 </svg>
               </a>
             </li>
-            <li class="social__item social">
-              <a href="#" class="card__link-social">
+            <li class="social__item">
+              <a href="#" class="social__link" aria-label="Go to website">
                 <svg
                   class="social__svg social__svg--width"
                   width="30"
@@ -63,8 +63,8 @@
                 </svg>
               </a>
             </li>
-            <li class="social__item social">
-              <a href="#" class="card__link-social">
+            <li class="social__item">
+              <a href="#" class="social__link" aria-label="Go to website">
                 <svg
                   class="social__svg social__svg--width"
                   width="30"
@@ -83,8 +83,8 @@
               </a>
             </li>
 
-            <li class="social__item social">
-              <a href="#" class="card__link-social">
+            <li class="social__item">
+              <a href="#" class="social__link" aria-label="Go to website">
                 <svg
                   class="social__svg social__svg--width"
                   width="30"

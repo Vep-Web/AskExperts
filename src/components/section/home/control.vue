@@ -8,7 +8,7 @@
     <h2 class="control__title t-45 t-centr">
       Get Control Over Your Business I take your finance to next level
     </h2>
-    <ul class="control__list list-reset card" role="list">
+    <ul class="control__list list-reset card">
       <card-ui>
         <template v-slot:top>
           <svg
@@ -168,10 +168,8 @@
           </svg>
         </template>
         <template v-slot:bot>
-          <h3 class="card__title card__text--color t-25">
-            Financial Projections
-          </h3>
-          <p class="card__text card__text--color t-16">
+          <h3 class="card__title text-color t-25">Financial Projections</h3>
+          <p class="card__text text-color t-16">
             Get help from Alex Moore, a professional business coach with
             advanced experience on growth and business scaling.
           </p>

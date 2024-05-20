@@ -11,8 +11,9 @@
   justify-content: space-between;
   background-color: var(--black);
   padding: 30px;
-  z-index: 1;
-  scr &__list {
+  z-index: 5;
+
+  &__list {
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column;
@@ -47,11 +48,25 @@
     transform: rotate(315deg);
   }
 }
+
+.social-nav {
+  &__list {
+    justify-content: space-between;
+  }
+
+  &__svg {
+    fill: var(--white);
+  }
+}
 </style>
 
 <template>
   <div class="burger-menu">
-    <button @click="closeBurgerMenu" class="burger-menu__btn btn-reset">
+    <button
+      @click="closeBurgerMenu"
+      class="burger-menu__btn btn-reset"
+      aria-label="Close menu"
+    >
       <span class="burger-menu__line"></span>
       <span class="burger-menu__line"></span>
     </button>
@@ -63,27 +78,31 @@
           >
         </li>
         <li class="burger-menu__item">
-          <router-link to="error" class="burger-menu__link link-reset t-18"
+          <router-link
+            to="/case-studies"
+            class="burger-menu__link link-reset t-18"
             >Pages</router-link
           >
         </li>
         <li class="burger-menu__item">
-          <router-link to="services" class="burger-menu__link link-reset t-18"
+          <router-link to="/services" class="burger-menu__link link-reset t-18"
             >Services</router-link
           >
         </li>
         <li class="burger-menu__item">
-          <router-link to="error" class="burger-menu__link link-reset t-18"
+          <router-link
+            to="/case-detail"
+            class="burger-menu__link link-reset t-18"
             >Work</router-link
           >
         </li>
         <li class="burger-menu__item">
-          <router-link to="error" class="burger-menu__link link-reset t-18"
-            >Pages</router-link
+          <router-link to="/blog" class="burger-menu__link link-reset t-18"
+            >Blog</router-link
           >
         </li>
         <li class="burger-menu__item">
-          <router-link to="contact" class="burger-menu__link link-reset t-18"
+          <router-link to="/contact" class="burger-menu__link link-reset t-18"
             >Contact</router-link
           >
         </li>
@@ -92,13 +111,16 @@
     <nav class="burger-menu__nav social-nav">
       <ul class="social-nav__list list-reset d-flex" role="list">
         <li class="social-nav__item">
-          <a href="#" class="social-nav__link link-reset t-18">
+          <a
+            href="#"
+            class="social-nav__link link-reset t-18"
+            aria-label="Go to website"
+          >
             <svg
               class="social-nav__svg"
               width="20"
               height="20"
               viewBox="0 0 20 20"
-              fill="none"
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
@@ -111,13 +133,16 @@
           </a>
         </li>
         <li class="social-nav__item">
-          <a href="#" class="social-nav__link link-reset t-18">
+          <a
+            href="#"
+            class="social-nav__link link-reset t-18"
+            aria-label="Go to website"
+          >
             <svg
               class="social-nav__svg"
               width="20"
               height="20"
               viewBox="0 0 20 20"
-              fill="none"
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
@@ -129,13 +154,16 @@
           </a>
         </li>
         <li class="social-nav__item">
-          <a href="#" class="social-nav__link link-reset t-18">
+          <a
+            href="#"
+            class="social-nav__link link-reset t-18"
+            aria-label="Go to website"
+          >
             <svg
               class="social-nav__svg"
               width="20"
               height="20"
               viewBox="0 0 20 20"
-              fill="none"
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
@@ -145,13 +173,16 @@
           </a>
         </li>
         <li class="social-nav__item">
-          <a href="#" class="social-nav__link link-reset t-18">
+          <a
+            href="#"
+            class="social-nav__link link-reset t-18"
+            aria-label="Go to website"
+          >
             <svg
               class="social-nav__svg"
               width="20"
               height="20"
               viewBox="0 0 20 20"
-              fill="none"
               xmlns="http://www.w3.org/2000/svg"
             >
               <path

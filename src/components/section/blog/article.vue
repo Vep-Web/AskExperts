@@ -83,16 +83,18 @@
         width="192"
       />
       <div class="article__content">
-        <h3 class="article__title article__title--m0 t-35 t-white">
-          Nayra Melson
-        </h3>
-        <span class="article__job t-18 t-white">Senior Manager</span>
-        <p class="article__text t-16 t-white">
-          Leads the global expansion of the designerz brand and overseas
-          investment in solutions and innovation. Renowned coder and an
-          authority on matters of industrial experience & interface.
-        </p>
-        <socialNetwork-ui class="article__social"></socialNetwork-ui>
+        <article>
+          <h3 class="article__title article__title--m0 t-35 t-white">
+            Nayra Melson
+          </h3>
+          <span class="article__job t-18 t-white">Senior Manager</span>
+          <p class="article__text t-16 t-white">
+            Leads the global expansion of the designerz brand and overseas
+            investment in solutions and innovation. Renowned coder and an
+            authority on matters of industrial experience & interface.
+          </p>
+          <socialNetwork-ui class="article__social"></socialNetwork-ui>
+        </article>
       </div>
     </div>
   </div>

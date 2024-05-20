@@ -3,7 +3,11 @@
 <template>
   <ul class="social list-reset d-flex">
     <li class="social__item">
-      <a href="/" class="social__link link-reset t-17">
+      <a
+        href="#"
+        class="social__link link-reset t-17"
+        aria-label="Go to website"
+      >
         <svg
           class="social__svg"
           width="20"
@@ -22,7 +26,11 @@
       </a>
     </li>
     <li class="social__item">
-      <a href="#" class="social__link link-reset t-17">
+      <a
+        href="#"
+        class="social__link link-reset t-17"
+        aria-label="Go to website"
+      >
         <svg
           class="social__svg"
           width="20"
@@ -40,7 +48,11 @@
       </a>
     </li>
     <li class="social__item">
-      <a href="#" class="social__link link-reset t-17">
+      <a
+        href="#"
+        class="social__link link-reset t-17"
+        aria-label="Go to website"
+      >
         <svg
           class="social__svg"
           width="20"
@@ -56,7 +68,11 @@
       </a>
     </li>
     <li class="social__item">
-      <a href="#" class="social__link link-reset t-17">
+      <a
+        href="#"
+        class="social__link link-reset t-17"
+        aria-label="Go to website"
+      >
         <svg
           class="social__svg"
           width="20"

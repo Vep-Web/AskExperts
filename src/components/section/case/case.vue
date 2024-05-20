@@ -9,11 +9,26 @@
         </button>
       </li>
     </ul>
-    <photo-content v-if="block === 1" class="case__list"></photo-content>
-    <photo-content v-if="block === 2" class="case__list"></photo-content>
-    <photo-content v-if="block === 3" class="case__list"></photo-content>
-    <photo-content v-if="block === 4" class="case__list"></photo-content>
-    <photo-content v-if="block === 5" class="case__list"></photo-content>
+    <photo-content
+      v-if="block === 1"
+      class="case__list analytical analytical--m0"
+    ></photo-content>
+    <photo-content
+      v-if="block === 2"
+      class="case__list analytical analytical--m0"
+    ></photo-content>
+    <photo-content
+      v-if="block === 3"
+      class="case__list analytical analytical--m0"
+    ></photo-content>
+    <photo-content
+      v-if="block === 4"
+      class="case__list analytical analytical--m0"
+    ></photo-content>
+    <photo-content
+      v-if="block === 5"
+      class="case__list analytical analytical--m0"
+    ></photo-content>
   </div>
 </template>
 

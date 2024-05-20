@@ -19,7 +19,7 @@
         </h2>
       </div>
       <router-link
-        to="error/"
+        to="/case-studies"
         class="analytical__link link-reset link link-yellow"
         >More Gallery</router-link
       >

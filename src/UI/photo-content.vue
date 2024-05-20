@@ -5,7 +5,7 @@
     <li class="analytical__item">
       <router-link
         class="analytical__link-castom link-castom link-reset"
-        to="error/"
+        to="case-detail"
       >
         <picture>
           <source srcset="@/img/analytical1.webp" type="image/webp" />
@@ -25,7 +25,7 @@
     <li class="analytical__item">
       <router-link
         class="analytical__link-castom link-castom link-reset"
-        to="error/"
+        to="case-detail"
       >
         <picture>
           <source srcset="@/img/analytical2.webp" type="image/webp" />
@@ -45,7 +45,7 @@
     <li class="analytical__item">
       <router-link
         class="analytical__link-castom link-castom link-reset"
-        to="error/"
+        to="case-detail"
       >
         <picture>
           <source srcset="@/img/analytical3.webp" type="image/webp" />
@@ -65,7 +65,7 @@
     <li class="analytical__item">
       <router-link
         class="analytical__link-castom link-castom link-reset"
-        to="error/"
+        to="case-detail"
       >
         <picture>
           <source srcset="@/img/analytical4.webp" type="image/webp" />
@@ -85,7 +85,7 @@
     <li class="analytical__item">
       <router-link
         class="analytical__link-castom link-castom link-reset"
-        to="error/"
+        to="case-detail"
       >
         <picture>
           <source srcset="@/img/analytical5.webp" type="image/webp" />
@@ -105,7 +105,7 @@
     <li class="analytical__item">
       <router-link
         class="analytical__link-castom link-castom link-reset"
-        to="error/"
+        to="case-detail"
       >
         <picture>
           <source srcset="@/img/analytical6.webp" type="image/webp" />

@@ -16,19 +16,13 @@
     <ul class="team__card card list-reset">
       <card-ui class="card__item--blog position">
         <template v-slot:top>
-          <img
-            class="card__img"
-            src="@/img/team1.jpg"
-            alt="Photo"
-            width=""
-            height=""
-          />
+          <img class="card__img" src="@/img/team1.jpg" alt="Photo" />
           <span class="card__job card__job--yellow">CEO at Company</span>
         </template>
         <template v-slot:bot>
           <h3 class="card__title t-30 t-centr">
             <router-link
-              to="team_detail"
+              to="/team-detail"
               class="card__link-normal link-normal link-reset"
               >Sarah Jasmine</router-link
             >
@@ -38,8 +32,8 @@
             level overviews.
           </p>
           <ul class="card__social social list-reset">
-            <li class="social__item social">
-              <a href="#" class="card__link-social">
+            <li class="social__item">
+              <a href="#" class="social__link">
                 <svg
                   class="social__svg social__svg--blakc"
                   width="25"
@@ -57,8 +51,8 @@
                 </svg>
               </a>
             </li>
-            <li class="social__item social">
-              <a href="#" class="card__link-social">
+            <li class="social__item">
+              <a href="#" class="social__link">
                 <svg
                   class="social__svg social__svg--blakc"
                   width="25"
@@ -75,8 +69,8 @@
                 </svg>
               </a>
             </li>
-            <li class="social__item social">
-              <a href="#" class="card__link-social">
+            <li class="social__item">
+              <a href="#" class="social__link">
                 <svg
                   class="social__svg social__svg--blakc"
                   width="24"
@@ -96,19 +90,13 @@
       </card-ui>
       <card-ui class="card__item--blog position">
         <template v-slot:top>
-          <img
-            class="card__img"
-            src="@/img/team2.jpg"
-            alt="Photo"
-            width=""
-            height=""
-          />
+          <img class="card__img" src="@/img/team2.jpg" alt="Photo" />
           <span class="card__job">Manager</span>
         </template>
         <template v-slot:bot>
           <h3 class="card__title t-30 t-centr">
             <router-link
-              to="team_detail"
+              to="/team-detail"
               class="card__link-normal link-normal link-reset"
               >John Carter</router-link
             >
@@ -118,8 +106,8 @@
             level overviews.
           </p>
           <ul class="card__social social list-reset">
-            <li class="social__item social">
-              <a href="#" class="card__link-social">
+            <li class="social__item">
+              <a href="#" class="social__link">
                 <svg
                   class="social__svg social__svg--blakc"
                   width="25"
@@ -137,8 +125,8 @@
                 </svg>
               </a>
             </li>
-            <li class="social__item social">
-              <a href="#" class="card__link-social">
+            <li class="social__item">
+              <a href="#" class="social__link">
                 <svg
                   class="social__svg social__svg--blakc"
                   width="25"
@@ -155,8 +143,8 @@
                 </svg>
               </a>
             </li>
-            <li class="social__item social">
-              <a href="#" class="card__link-social">
+            <li class="social__item">
+              <a href="#" class="social__link">
                 <svg
                   class="social__svg social__svg--blakc"
                   width="24"
@@ -176,13 +164,7 @@
       </card-ui>
       <card-ui class="card__item--blog position">
         <template v-slot:top>
-          <img
-            class="card__img"
-            src="@/img/team3.jpg"
-            alt="Photo"
-            width=""
-            height=""
-          />
+          <img class="card__img" src="@/img/team3.jpg" alt="Photo" />
           <span class="card__job">CEO at Company</span>
         </template>
         <template v-slot:bot>
@@ -198,8 +180,8 @@
             level overviews.
           </p>
           <ul class="card__social social list-reset">
-            <li class="social__item social">
-              <a href="#" class="card__link-social">
+            <li class="social__item">
+              <a href="#" class="social__link">
                 <svg
                   class="social__svg social__svg--blakc"
                   width="25"
@@ -217,8 +199,8 @@
                 </svg>
               </a>
             </li>
-            <li class="social__item social">
-              <a href="#" class="card__link-social">
+            <li class="social__item">
+              <a href="#" class="social__link">
                 <svg
                   class="social__svg social__svg--blakc"
                   width="25"
@@ -235,8 +217,8 @@
                 </svg>
               </a>
             </li>
-            <li class="social__item social">
-              <a href="#" class="card__link-social">
+            <li class="social__item">
+              <a href="#" class="social__link">
                 <svg
                   class="social__svg social__svg--blakc"
                   width="24"

@@ -11,7 +11,7 @@
           minim veniam, quis nostrud exercitation.
         </p>
       </div>
-      <router-link to="/" class="people__link link-reset link link-black"
+      <router-link to="/error" class="people__link link-reset link link-black"
         >Join our team</router-link
       >
     </div>
@@ -28,7 +28,6 @@
             :src="people.photo + '.jpg'"
             :alt="'Photo ' + people.name"
             width="366"
-            height=""
           />
           <span v-if="people.id == 1" class="card__job card__job--yellow">{{
             people.job
@@ -52,8 +51,8 @@
             {{ people.text }}
           </p>
           <ul class="card__social social list-reset">
-            <li class="social__item social">
-              <a href="#" class="card__link-social">
+            <li class="social__item">
+              <a href="#" class="social__link" aria-label="Go to website">
                 <svg
                   class="social__svg social__svg--blakc"
                   width="25"
@@ -71,8 +70,8 @@
                 </svg>
               </a>
             </li>
-            <li class="social__item social">
-              <a href="#" class="card__link-social">
+            <li class="social__item">
+              <a href="#" class="social__link" aria-label="Go to website">
                 <svg
                   class="social__svg social__svg--blakc"
                   width="25"
@@ -89,8 +88,8 @@
                 </svg>
               </a>
             </li>
-            <li class="social__item social">
-              <a href="#" class="card__link-social">
+            <li class="social__item">
+              <a href="#" class="social__link" aria-label="Go to website">
                 <svg
                   class="social__svg social__svg--blakc"
                   width="24"

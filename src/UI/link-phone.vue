@@ -66,7 +66,7 @@
 
 <template>
   <div :class="['phone', `phone-${color}`]">
-    <a href="tel:8884521505" class="phone__link link-reset link-tel t-18">
+    <a href="tel:8001234654" class="phone__link link-reset link-tel t-18">
       <svg
         class="icon-tel"
         width="44"
@@ -82,7 +82,7 @@
           stroke-linejoin="round"
         />
       </svg>
-      + (888) 452 1505</a
+      +800 1234 654</a
     >
   </div>
 </template>
